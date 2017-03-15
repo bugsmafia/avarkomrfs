@@ -1,0 +1,43 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "СИБАССИСТ"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "СИБАССИСТ"
+        },
+        "cordova-plugin-mauron85-background-geolocation": {
+            "PACKAGE_NAME": "СИБАССИСТ"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "СИБАССИСТ"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "СИБАССИСТ"
+        },
+        "de.appplant.cordova.plugin.local-notification": {
+            "PACKAGE_NAME": "СИБАССИСТ"
+        },
+        "cordova-plugin-crosswalk-webview": {
+            "PACKAGE_NAME": "СИБАССИСТ"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-background-mode": {
+            "PACKAGE_NAME": "СИБАССИСТ"
+        },
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "СИБАССИСТ"
+        },
+        "cordova-plugin-app-event": {
+            "PACKAGE_NAME": "СИБАССИСТ"
+        }
+    }
+}

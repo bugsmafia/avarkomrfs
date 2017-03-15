@@ -1,0 +1,37 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.a1format.avarkoms"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.a1format.avarkoms"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "com.a1format.avarkoms"
+        },
+        "cordova-plugin-mauron85-background-geolocation": {
+            "PACKAGE_NAME": "com.a1format.avarkoms"
+        },
+        "de.appplant.cordova.plugin.local-notification": {
+            "PACKAGE_NAME": "com.a1format.avarkomrfs"
+        },
+        "cordova-plugin-crosswalk-webview": {
+            "PACKAGE_NAME": "com.a1format.avarkomrfs"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.a1format.avarkoms"
+        },
+        "cordova-plugin-app-event": {
+            "PACKAGE_NAME": "com.a1format.avarkomrfs"
+        }
+    }
+}

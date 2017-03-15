@@ -1,0 +1,45 @@
+{
+    "!name": "cordova-plugin-mauron85-background-geolocation",
+    "!define": {
+        "!modules": {
+            "backgroundGeolocation": {
+                "provider": {
+                    "ANDROID_DISTANCE_FILTER_PROVIDER": "number",
+                    "ANDROID_ACTIVITY_PROVIDER": "number"
+                },
+                "mode": {
+                    "BACKGROUND": "number",
+                    "FOREGROUND": "number"
+                },
+                "accuracy": {
+                    "HIGH": "number",
+                    "MEDIUM": "number",
+                    "LOW": "number",
+                    "PASSIVE": "number"
+                },
+                "configure": "fn(success: ?, failure: ?, config: ?)",
+                "start": "fn(success: ?, failure: ?)",
+                "stop": "fn(success: ?, failure: ?)",
+                "finish": "fn(success: ?, failure: ?)",
+                "changePace": "fn(mode: ?, success: ?, failure: ?)",
+                "switchMode": "fn(mode: ?, success: ?, failure: ?)",
+                "getConfig": "fn(success: ?, failure: ?)",
+                "getStationaryLocation": "fn(success: ?, failure: ?)",
+                "onStationary": "fn(success: ?, failure: ?)",
+                "isLocationEnabled": "fn(success: ?, failure: ?)",
+                "showAppSettings": "fn()",
+                "showLocationSettings": "fn()",
+                "watchLocationMode": "fn(success: ?, failure: ?)",
+                "stopWatchingLocationMode": "fn()",
+                "getLocations": "fn(success: ?, failure: ?)",
+                "getValidLocations": "fn(success: ?, failure: ?)",
+                "deleteLocation": "fn(locationId: ?, success: ?, failure: ?)",
+                "deleteAllLocations": "fn(success: ?, failure: ?)",
+                "getLogEntries": "fn(limit: ?, success: ?, failure: ?)"
+            }
+        },
+        "!modules.backgroundGeolocation.configure.!0": "fn()"
+    },
+    "!plugin-version": "2.2.5",
+    "backgroundGeolocation": "!modules.backgroundGeolocation"
+}
